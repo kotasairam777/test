@@ -1,0 +1,12 @@
+.asp-card-expansion {
+  &-item{
+    border-radius: 8px;
+    .item-header {
+      background-color: #FAFCFF;
+    }
+    .all-card-trns {
+      background-color: $asp-lgreen;
+      color: $positive;
+    }
+  }
+}

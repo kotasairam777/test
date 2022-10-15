@@ -1,0 +1,46 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import './reset.scss';
+@import '../components/components.scss';
+
+.font-sm {
+  font-size: $font-sm;
+}
+
+.font-md {
+  font-size: $font-md;
+}
+
+.clr-positive {
+  color: $positive;
+}
+
+.clr-asp-blue {
+  color: $asp-blue;
+}
+.clr-asp-lblue {
+  color: $asp-lblue;
+}
+.clr-asp-white {
+  color: $asp-white
+}
+
+.bg-asp-white {
+  background-color: $asp-white;
+}
+.bg-asp-blue {
+  background-color: $asp-blue;
+}
+.bg-asp-ltblue {
+  background-color: $asp-ltblue
+}
+
+.asp-card-expantion {
+  border-radius: 8px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

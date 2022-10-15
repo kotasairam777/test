@@ -1,0 +1,25 @@
+.asp-card-details-item {
+  &-head{
+    display: flex;
+    justify-content: space-between;
+    .item-avatar {
+      width: 48px;
+      height: 48px;
+      background-color: $asp-lblue1;
+    }
+    .item-avatar-img {
+        width: 16px !important;
+    }
+    .item-date {
+      color: $asp-gray;
+    }
+  }
+  .trans-type {
+    color: $asp-bblue;
+    .trans-type-logo {
+      width: 24px;
+      height: 20px;
+      background-color: $asp-bblue;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.asp{
+  &_card {
+    .show-card {
+      border-radius: 6px 6px 0 0;
+    }
+    &_container {
+      border-radius: 12px;
+      background-color: $positive;
+    }
+  }
+}

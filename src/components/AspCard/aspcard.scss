@@ -6,6 +6,9 @@
     &_container {
       border-radius: 12px;
       background-color: $positive;
+      &.inactive {
+        opacity: 0.5;
+      }
     }
   }
 }
